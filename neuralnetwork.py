@@ -20,7 +20,6 @@ from sklearn.datasets import fetch_openml
 """Download the MNIST dataset"""
 
 X, y = fetch_openml('mnist_784', return_X_y=True, as_frame=False)
-print(X.shape, y.shape)
 
 """Data normalization"""
 
